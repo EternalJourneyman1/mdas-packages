@@ -12,7 +12,7 @@ VMWARE_POSTGRES_TARGET_TAR=$PROJECT_DIR/postgres-for-kubernetes-v1.9.1.tar.gz
 mkdir -p $PROJECT_DIR/postgres-operator
 
 # INSTALL & UNPACK
-#cp ./postgres-for-kubernetes-v1.9.1.tar.gz $VMWARE_POSTGRES_TARGET_TAR
+cp ./postgres-for-kubernetes-v1.9.1.tar.gz $VMWARE_POSTGRES_TARGET_TAR
 tar xfv $VMWARE_POSTGRES_TARGET_TAR
 cp -r $VMWARE_POSTGRES_TARGET /tmp
 
